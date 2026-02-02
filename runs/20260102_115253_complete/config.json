@@ -1,0 +1,8 @@
+{
+  "mode": "quick",
+  "max_episodes": 4,
+  "skip_ai": false,
+  "data_dir": "/autodl-fs/data/CCN_Competition/data",
+  "run_dir": "runs/20260102_115253_complete",
+  "timestamp": "2026-01-05T17:16:00.205140"
+}

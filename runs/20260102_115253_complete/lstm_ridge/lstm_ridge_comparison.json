@@ -1,0 +1,272 @@
+{
+  "subject_results": {
+    "sub-01": {
+      "Visual": {
+        "ridge_mean": 0.32898235643053575,
+        "ridge_std": 0.11764813092476026,
+        "lstm_mean": 0.46922844648361206,
+        "lstm_std": 0.15144731104373932,
+        "improvement": 0.1402460900530763
+      },
+      "Somatomotor": {
+        "ridge_mean": 0.34960416203853645,
+        "ridge_std": 0.17893446222804654,
+        "lstm_mean": 0.5129952430725098,
+        "lstm_std": 0.2406635731458664,
+        "improvement": 0.16339108103397332
+      },
+      "DorsalAttention": {
+        "ridge_mean": 0.26718636368292037,
+        "ridge_std": 0.08042087986966961,
+        "lstm_mean": 0.39781662821769714,
+        "lstm_std": 0.12252360582351685,
+        "improvement": 0.13063026453477677
+      },
+      "VentralAttention": {
+        "ridge_mean": 0.41698140348362117,
+        "ridge_std": 0.13956600055494914,
+        "lstm_mean": 0.605143666267395,
+        "lstm_std": 0.16796278953552246,
+        "improvement": 0.18816226278377385
+      },
+      "Limbic": {
+        "ridge_mean": 0.30839434615258376,
+        "ridge_std": 0.2008672740364703,
+        "lstm_mean": 0.44145818818360566,
+        "lstm_std": 0.2692340638159366,
+        "improvement": 0.1330638420310219
+      },
+      "Frontoparietal": {
+        "ridge_mean": 0.28077224787174554,
+        "ridge_std": 0.17493125224769843,
+        "lstm_mean": 0.39558377861976624,
+        "lstm_std": 0.23086696863174438,
+        "improvement": 0.1148115307480207
+      },
+      "Default": {
+        "ridge_mean": 0.3651137424636038,
+        "ridge_std": 0.10882996925597659,
+        "lstm_mean": 0.56818026304245,
+        "lstm_std": 0.16350317001342773,
+        "improvement": 0.20306652057884617
+      }
+    },
+    "sub-02": {
+      "Visual": {
+        "ridge_mean": 0.2625099946109011,
+        "ridge_std": 0.13087261013614104,
+        "lstm_mean": 0.4537131190299988,
+        "lstm_std": 0.1798490285873413,
+        "improvement": 0.1912031244190977
+      },
+      "Somatomotor": {
+        "ridge_mean": 0.3051390779045009,
+        "ridge_std": 0.16821299214261462,
+        "lstm_mean": 0.4882788062095642,
+        "lstm_std": 0.2423647791147232,
+        "improvement": 0.1831397283050633
+      },
+      "DorsalAttention": {
+        "ridge_mean": 0.15372535198187026,
+        "ridge_std": 0.05868675537753406,
+        "lstm_mean": 0.23041677474975586,
+        "lstm_std": 0.0757799744606018,
+        "improvement": 0.0766914227678856
+      },
+      "VentralAttention": {
+        "ridge_mean": 0.4298363867665609,
+        "ridge_std": 0.0609403434097736,
+        "lstm_mean": 0.622759222984314,
+        "lstm_std": 0.08187422901391983,
+        "improvement": 0.19292283621775308
+      },
+      "Limbic": {
+        "ridge_mean": 0.2681707993056037,
+        "ridge_std": 0.18408715867842404,
+        "lstm_mean": 0.37136995792388916,
+        "lstm_std": 0.2694066189457236,
+        "improvement": 0.10319915861828544
+      },
+      "Frontoparietal": {
+        "ridge_mean": 0.23569195392374082,
+        "ridge_std": 0.16343705996478794,
+        "lstm_mean": 0.3545549351722002,
+        "lstm_std": 0.26065452668726474,
+        "improvement": 0.1188629812484594
+      },
+      "Default": {
+        "ridge_mean": 0.3904702649395765,
+        "ridge_std": 0.10857131388672596,
+        "lstm_mean": 0.5673948526382446,
+        "lstm_std": 0.14946505427360535,
+        "improvement": 0.17692458769866815
+      }
+    },
+    "sub-03": {
+      "Visual": {
+        "ridge_mean": 0.32275418669303757,
+        "ridge_std": 0.12080931444583691,
+        "lstm_mean": 0.5169259905815125,
+        "lstm_std": 0.1747986227273941,
+        "improvement": 0.19417180388847488
+      },
+      "Somatomotor": {
+        "ridge_mean": 0.3142525992521315,
+        "ridge_std": 0.15133307066113533,
+        "lstm_mean": 0.5115610361099243,
+        "lstm_std": 0.2047586441040039,
+        "improvement": 0.1973084368577928
+      },
+      "DorsalAttention": {
+        "ridge_mean": 0.29076037076609285,
+        "ridge_std": 0.10040738116966258,
+        "lstm_mean": 0.4575047492980957,
+        "lstm_std": 0.12542946636676788,
+        "improvement": 0.16674437853200286
+      },
+      "VentralAttention": {
+        "ridge_mean": 0.4344506746160386,
+        "ridge_std": 0.053008622098835986,
+        "lstm_mean": 0.6702594757080078,
+        "lstm_std": 0.07422655820846558,
+        "improvement": 0.23580880109196922
+      },
+      "Limbic": {
+        "ridge_mean": 0.3030179333005966,
+        "ridge_std": 0.1375683560004466,
+        "lstm_mean": 0.4981343746185303,
+        "lstm_std": 0.19583047926425934,
+        "improvement": 0.19511644131793365
+      },
+      "Frontoparietal": {
+        "ridge_mean": 0.3266304974901927,
+        "ridge_std": 0.20362567334506598,
+        "lstm_mean": 0.47739616334438323,
+        "lstm_std": 0.298652625693027,
+        "improvement": 0.15076566585419054
+      },
+      "Default": {
+        "ridge_mean": 0.41546308757457967,
+        "ridge_std": 0.0806420692566209,
+        "lstm_mean": 0.6312075257301331,
+        "lstm_std": 0.11427579820156097,
+        "improvement": 0.2157444381555534
+      }
+    },
+    "sub-05": {
+      "Visual": {
+        "ridge_mean": 0.3532241435115261,
+        "ridge_std": 0.10434540205899322,
+        "lstm_mean": 0.5296366214752197,
+        "lstm_std": 0.18367408215999603,
+        "improvement": 0.17641247796369364
+      },
+      "Somatomotor": {
+        "ridge_mean": 0.33781263558504904,
+        "ridge_std": 0.1241117780570953,
+        "lstm_mean": 0.5436156988143921,
+        "lstm_std": 0.17712560296058655,
+        "improvement": 0.20580306322934305
+      },
+      "DorsalAttention": {
+        "ridge_mean": 0.4265359931887698,
+        "ridge_std": 0.12083549066275591,
+        "lstm_mean": 0.6153198480606079,
+        "lstm_std": 0.16017188131809235,
+        "improvement": 0.18878385487183813
+      },
+      "VentralAttention": {
+        "ridge_mean": 0.41082121252806275,
+        "ridge_std": 0.05047672408608766,
+        "lstm_mean": 0.6278567314147949,
+        "lstm_std": 0.0726783499121666,
+        "improvement": 0.21703551888673217
+      },
+      "Limbic": {
+        "ridge_mean": 0.34192263868523626,
+        "ridge_std": 0.15208503086117417,
+        "lstm_mean": 0.5122292965650559,
+        "lstm_std": 0.21627140431922415,
+        "improvement": 0.17030665787981963
+      },
+      "Frontoparietal": {
+        "ridge_mean": 0.26476779521700133,
+        "ridge_std": 0.1762982681168619,
+        "lstm_mean": 0.40609925985336304,
+        "lstm_std": 0.2638683617115021,
+        "improvement": 0.1413314646363617
+      },
+      "Default": {
+        "ridge_mean": 0.37304180088822936,
+        "ridge_std": 0.13045966566251782,
+        "lstm_mean": 0.5624311566352844,
+        "lstm_std": 0.16440387070178986,
+        "improvement": 0.18938935574705507
+      }
+    }
+  },
+  "aggregated": {
+    "Visual": {
+      "ridge_mean": 0.3168676703115001,
+      "ridge_std": 0.033384003452209585,
+      "lstm_mean": 0.49237602949142456,
+      "lstm_std": 0.03170837461948395,
+      "improvement": 0.17550835917992447,
+      "improvement_percent": 55.38853457407018
+    },
+    "Somatomotor": {
+      "ridge_mean": 0.32670211869505444,
+      "ridge_std": 0.01780380884364618,
+      "lstm_mean": 0.5141127109527588,
+      "lstm_std": 0.019656911492347717,
+      "improvement": 0.18741059225770434,
+      "improvement_percent": 57.36436388870501
+    },
+    "DorsalAttention": {
+      "ridge_mean": 0.2845520199049133,
+      "ridge_std": 0.09697316039213247,
+      "lstm_mean": 0.42526450753211975,
+      "lstm_std": 0.1377311646938324,
+      "improvement": 0.14071248762720645,
+      "improvement_percent": 49.450531971193456
+    },
+    "VentralAttention": {
+      "ridge_mean": 0.4230224193485709,
+      "ridge_std": 0.009518383410396182,
+      "lstm_mean": 0.6315047740936279,
+      "lstm_std": 0.023909348994493484,
+      "improvement": 0.20848235474505705,
+      "improvement_percent": 49.28399658269256
+    },
+    "Limbic": {
+      "ridge_mean": 0.3053764293610051,
+      "ridge_std": 0.026146484702621885,
+      "lstm_mean": 0.45579795432277026,
+      "lstm_std": 0.05547653634551418,
+      "improvement": 0.15042152496176514,
+      "improvement_percent": 49.25773912127463
+    },
+    "Frontoparietal": {
+      "ridge_mean": 0.2769656236256701,
+      "ridge_std": 0.03291425569825721,
+      "lstm_mean": 0.4084085342474282,
+      "lstm_std": 0.044241694720339224,
+      "improvement": 0.13144291062175806,
+      "improvement_percent": 47.45820396539539
+    },
+    "Default": {
+      "ridge_mean": 0.3860222239664973,
+      "ridge_std": 0.019314537921832166,
+      "lstm_mean": 0.5823034048080444,
+      "lstm_std": 0.02832069620490074,
+      "improvement": 0.1962811808415471,
+      "improvement_percent": 50.84711931190136
+    }
+  },
+  "parameters": {
+    "seq_length": 20,
+    "hidden_dim": 64,
+    "epochs": 30,
+    "alpha": 1000
+  }
+}

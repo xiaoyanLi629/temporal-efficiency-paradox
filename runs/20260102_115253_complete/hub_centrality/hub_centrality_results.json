@@ -1,0 +1,651 @@
+{
+  "subject_results": {
+    "sub-01": {
+      "Visual": {
+        "degree_centrality": {
+          "mean": 0.09693026359693026,
+          "std": 0.04614700262254449
+        },
+        "betweenness_centrality": {
+          "mean": 0.001058485123492807,
+          "std": 0.0015790359060511043
+        },
+        "participation_coefficient": {
+          "mean": 0.6198176490034406,
+          "std": 0.15032452486870657
+        },
+        "within_module_z": {
+          "mean": 8.881784197001253e-17,
+          "std": 0.9999999999944401
+        },
+        "n_provincial_hubs": 0,
+        "n_connector_hubs": 22,
+        "hub_ratio": 0.18333333333333332
+      },
+      "Somatomotor": {
+        "degree_centrality": {
+          "mean": 0.112004862004862,
+          "std": 0.05351373879692126
+        },
+        "betweenness_centrality": {
+          "mean": 0.0012591226742261017,
+          "std": 0.0012367623625610497
+        },
+        "participation_coefficient": {
+          "mean": 0.6985543214354328,
+          "std": 0.09584040958338653
+        },
+        "within_module_z": {
+          "mean": -9.516197353929913e-17,
+          "std": 0.9999999999935386
+        },
+        "n_provincial_hubs": 0,
+        "n_connector_hubs": 19,
+        "hub_ratio": 0.1357142857142857
+      },
+      "DorsalAttention": {
+        "degree_centrality": {
+          "mean": 0.060230230230230226,
+          "std": 0.04083030320983122
+        },
+        "betweenness_centrality": {
+          "mean": 0.0008304101012759039,
+          "std": 0.0007972248016768786
+        },
+        "participation_coefficient": {
+          "mean": 0.5902721219835033,
+          "std": 0.23566254335144476
+        },
+        "within_module_z": {
+          "mean": 1.2878587085651815e-16,
+          "std": 0.9999999999900511
+        },
+        "n_provincial_hubs": 0,
+        "n_connector_hubs": 16,
+        "hub_ratio": 0.16
+      },
+      "VentralAttention": {
+        "degree_centrality": {
+          "mean": 0.1361661661661662,
+          "std": 0.05112567021051944
+        },
+        "betweenness_centrality": {
+          "mean": 0.001388506896051819,
+          "std": 0.0011956436009312656
+        },
+        "participation_coefficient": {
+          "mean": 0.7404316673078949,
+          "std": 0.05877547498451529
+        },
+        "within_module_z": {
+          "mean": -2.831068712794149e-16,
+          "std": 0.9999999999919298
+        },
+        "n_provincial_hubs": 0,
+        "n_connector_hubs": 12,
+        "hub_ratio": 0.12
+      },
+      "Limbic": {
+        "degree_centrality": {
+          "mean": 0.10729300729300728,
+          "std": 0.04940389213995874
+        },
+        "betweenness_centrality": {
+          "mean": 0.0012677354134378869,
+          "std": 0.001288526829588046
+        },
+        "participation_coefficient": {
+          "mean": 0.7373886070929734,
+          "std": 0.08119795432025635
+        },
+        "within_module_z": {
+          "mean": 8.564577618536922e-17,
+          "std": 0.9999999999862276
+        },
+        "n_provincial_hubs": 0,
+        "n_connector_hubs": 13,
+        "hub_ratio": 0.18571428571428572
+      },
+      "Frontoparietal": {
+        "degree_centrality": {
+          "mean": 0.07586409939351116,
+          "std": 0.06016871643346385
+        },
+        "betweenness_centrality": {
+          "mean": 0.001082228721939455,
+          "std": 0.0013193654230801257
+        },
+        "participation_coefficient": {
+          "mean": 0.5981843875646565,
+          "std": 0.23779919240677036
+        },
+        "within_module_z": {
+          "mean": 1.2538989454590003e-16,
+          "std": 0.9999999999929097
+        },
+        "n_provincial_hubs": 0,
+        "n_connector_hubs": 35,
+        "hub_ratio": 0.20588235294117646
+      },
+      "Default": {
+        "degree_centrality": {
+          "mean": 0.10913580246913583,
+          "std": 0.06339505608663981
+        },
+        "betweenness_centrality": {
+          "mean": 0.001208827016472109,
+          "std": 0.0011871731397544107
+        },
+        "participation_coefficient": {
+          "mean": 0.5482279956638659,
+          "std": 0.1762813133832864
+        },
+        "within_module_z": {
+          "mean": 3.848773152033876e-17,
+          "std": 0.9999999999970256
+        },
+        "n_provincial_hubs": 0,
+        "n_connector_hubs": 55,
+        "hub_ratio": 0.18333333333333332
+      }
+    },
+    "sub-02": {
+      "Visual": {
+        "degree_centrality": {
+          "mean": 0.09465298631965299,
+          "std": 0.043460007512147084
+        },
+        "betweenness_centrality": {
+          "mean": 0.0008744092971795912,
+          "std": 0.0013288361825137295
+        },
+        "participation_coefficient": {
+          "mean": 0.6439132350109619,
+          "std": 0.11560795902226496
+        },
+        "within_module_z": {
+          "mean": 1.1102230246251566e-17,
+          "std": 0.9999999999942909
+        },
+        "n_provincial_hubs": 0,
+        "n_connector_hubs": 21,
+        "hub_ratio": 0.175
+      },
+      "Somatomotor": {
+        "degree_centrality": {
+          "mean": 0.09797654797654798,
+          "std": 0.05318650506146566
+        },
+        "betweenness_centrality": {
+          "mean": 0.0011054633197385125,
+          "std": 0.0012050867393607406
+        },
+        "participation_coefficient": {
+          "mean": 0.6604407603527496,
+          "std": 0.13753752011775258
+        },
+        "within_module_z": {
+          "mean": 1.9032394707859825e-16,
+          "std": 0.9999999999930372
+        },
+        "n_provincial_hubs": 0,
+        "n_connector_hubs": 17,
+        "hub_ratio": 0.12142857142857143
+      },
+      "DorsalAttention": {
+        "degree_centrality": {
+          "mean": 0.052642642642642644,
+          "std": 0.034090542207053175
+        },
+        "betweenness_centrality": {
+          "mean": 0.0009925004262190283,
+          "std": 0.0012028083348152709
+        },
+        "participation_coefficient": {
+          "mean": 0.5317600799584583,
+          "std": 0.23912871895671836
+        },
+        "within_module_z": {
+          "mean": 1.3322676295501878e-17,
+          "std": 0.9999999999916286
+        },
+        "n_provincial_hubs": 2,
+        "n_connector_hubs": 15,
+        "hub_ratio": 0.17
+      },
+      "VentralAttention": {
+        "degree_centrality": {
+          "mean": 0.12167167167167166,
+          "std": 0.05225098180929206
+        },
+        "betweenness_centrality": {
+          "mean": 0.0011730539708605027,
+          "std": 0.00116834109672766
+        },
+        "participation_coefficient": {
+          "mean": 0.7355896321675235,
+          "std": 0.05967446277152125
+        },
+        "within_module_z": {
+          "mean": -8.881784197001253e-18,
+          "std": 0.9999999999921276
+        },
+        "n_provincial_hubs": 0,
+        "n_connector_hubs": 21,
+        "hub_ratio": 0.21
+      },
+      "Limbic": {
+        "degree_centrality": {
+          "mean": 0.1168740168740169,
+          "std": 0.06364721106082262
+        },
+        "betweenness_centrality": {
+          "mean": 0.0018249688880637822,
+          "std": 0.0017600708715631403
+        },
+        "participation_coefficient": {
+          "mean": 0.740715136737109,
+          "std": 0.07570229542273933
+        },
+        "within_module_z": {
+          "mean": -1.2371056560108888e-16,
+          "std": 0.9999999999916183
+        },
+        "n_provincial_hubs": 0,
+        "n_connector_hubs": 14,
+        "hub_ratio": 0.2
+      },
+      "Frontoparietal": {
+        "degree_centrality": {
+          "mean": 0.08504386739680858,
+          "std": 0.06632645161638809
+        },
+        "betweenness_centrality": {
+          "mean": 0.0012536120533724663,
+          "std": 0.0014981215445410271
+        },
+        "participation_coefficient": {
+          "mean": 0.6093683004544023,
+          "std": 0.2087774920921124
+        },
+        "within_module_z": {
+          "mean": -8.098097356089377e-17,
+          "std": 0.9999999999936922
+        },
+        "n_provincial_hubs": 0,
+        "n_connector_hubs": 34,
+        "hub_ratio": 0.2
+      },
+      "Default": {
+        "degree_centrality": {
+          "mean": 0.11651651651651652,
+          "std": 0.06794710443568133
+        },
+        "betweenness_centrality": {
+          "mean": 0.0014249276607296991,
+          "std": 0.0013772070635717476
+        },
+        "participation_coefficient": {
+          "mean": 0.5558640393922187,
+          "std": 0.18527287141992513
+        },
+        "within_module_z": {
+          "mean": -1.8947806286936006e-16,
+          "std": 0.9999999999971436
+        },
+        "n_provincial_hubs": 0,
+        "n_connector_hubs": 49,
+        "hub_ratio": 0.16333333333333333
+      }
+    },
+    "sub-03": {
+      "Visual": {
+        "degree_centrality": {
+          "mean": 0.07057891224557891,
+          "std": 0.03019971961230459
+        },
+        "betweenness_centrality": {
+          "mean": 0.0008598692987663042,
+          "std": 0.001003804437291518
+        },
+        "participation_coefficient": {
+          "mean": 0.5085477789976718,
+          "std": 0.18966125799778288
+        },
+        "within_module_z": {
+          "mean": -2.590520390792032e-17,
+          "std": 0.999999999992489
+        },
+        "n_provincial_hubs": 0,
+        "n_connector_hubs": 15,
+        "hub_ratio": 0.125
+      },
+      "Somatomotor": {
+        "degree_centrality": {
+          "mean": 0.08484198484198485,
+          "std": 0.0444732077044194
+        },
+        "betweenness_centrality": {
+          "mean": 0.0015067601584176362,
+          "std": 0.0019003159011684975
+        },
+        "participation_coefficient": {
+          "mean": 0.5962015775690848,
+          "std": 0.1272212928865519
+        },
+        "within_module_z": {
+          "mean": 8.247371040072592e-17,
+          "std": 0.9999999999929005
+        },
+        "n_provincial_hubs": 1,
+        "n_connector_hubs": 18,
+        "hub_ratio": 0.1357142857142857
+      },
+      "DorsalAttention": {
+        "degree_centrality": {
+          "mean": 0.04507507507507508,
+          "std": 0.02467034136083198
+        },
+        "betweenness_centrality": {
+          "mean": 0.0010984515428082195,
+          "std": 0.0018584385139431188
+        },
+        "participation_coefficient": {
+          "mean": 0.4248105122417105,
+          "std": 0.2076359978712462
+        },
+        "within_module_z": {
+          "mean": -3.1086244689504386e-17,
+          "std": 0.9999999999928918
+        },
+        "n_provincial_hubs": 6,
+        "n_connector_hubs": 11,
+        "hub_ratio": 0.17
+      },
+      "VentralAttention": {
+        "degree_centrality": {
+          "mean": 0.11469469469469472,
+          "std": 0.04922547584123611
+        },
+        "betweenness_centrality": {
+          "mean": 0.001554814529987953,
+          "std": 0.001096767528686785
+        },
+        "participation_coefficient": {
+          "mean": 0.7061488623675881,
+          "std": 0.06650601662448401
+        },
+        "within_module_z": {
+          "mean": -9.214851104388799e-17,
+          "std": 0.9999999999899642
+        },
+        "n_provincial_hubs": 0,
+        "n_connector_hubs": 16,
+        "hub_ratio": 0.16
+      },
+      "Limbic": {
+        "degree_centrality": {
+          "mean": 0.10687830687830686,
+          "std": 0.05910731314740539
+        },
+        "betweenness_centrality": {
+          "mean": 0.0016876081028992208,
+          "std": 0.0016731105424579557
+        },
+        "participation_coefficient": {
+          "mean": 0.6964118735118858,
+          "std": 0.06703209017118575
+        },
+        "within_module_z": {
+          "mean": 1.851693401785529e-16,
+          "std": 0.9999999999898415
+        },
+        "n_provincial_hubs": 0,
+        "n_connector_hubs": 14,
+        "hub_ratio": 0.2
+      },
+      "Frontoparietal": {
+        "degree_centrality": {
+          "mean": 0.1,
+          "std": 0.08345728940928333
+        },
+        "betweenness_centrality": {
+          "mean": 0.0014968599244408942,
+          "std": 0.00178983342981637
+        },
+        "participation_coefficient": {
+          "mean": 0.5701018091552813,
+          "std": 0.2202968604937095
+        },
+        "within_module_z": {
+          "mean": 2.6122894697062506e-17,
+          "std": 0.9999999999953724
+        },
+        "n_provincial_hubs": 0,
+        "n_connector_hubs": 35,
+        "hub_ratio": 0.20588235294117646
+      },
+      "Default": {
+        "degree_centrality": {
+          "mean": 0.13098098098098096,
+          "std": 0.0723522768756188
+        },
+        "betweenness_centrality": {
+          "mean": 0.0012018216764488744,
+          "std": 0.0011489613064127968
+        },
+        "participation_coefficient": {
+          "mean": 0.5453391950892652,
+          "std": 0.15598587403195416
+        },
+        "within_module_z": {
+          "mean": -4.7369515717340015e-17,
+          "std": 0.9999999999973829
+        },
+        "n_provincial_hubs": 0,
+        "n_connector_hubs": 56,
+        "hub_ratio": 0.18666666666666668
+      }
+    },
+    "sub-05": {
+      "Visual": {
+        "degree_centrality": {
+          "mean": 0.09326826826826826,
+          "std": 0.03939221136069229
+        },
+        "betweenness_centrality": {
+          "mean": 0.00117306348196605,
+          "std": 0.001612928244383955
+        },
+        "participation_coefficient": {
+          "mean": 0.6134373023007286,
+          "std": 0.10838157009234171
+        },
+        "within_module_z": {
+          "mean": -2.0169051614023677e-16,
+          "std": 0.9999999999935953
+        },
+        "n_provincial_hubs": 0,
+        "n_connector_hubs": 19,
+        "hub_ratio": 0.15833333333333333
+      },
+      "Somatomotor": {
+        "degree_centrality": {
+          "mean": 0.08941083941083941,
+          "std": 0.03840883417474566
+        },
+        "betweenness_centrality": {
+          "mean": 0.0009936752973553106,
+          "std": 0.0011713527907171216
+        },
+        "participation_coefficient": {
+          "mean": 0.6488207766009039,
+          "std": 0.1383227230365772
+        },
+        "within_module_z": {
+          "mean": -1.395708945243054e-16,
+          "std": 0.9999999999910889
+        },
+        "n_provincial_hubs": 0,
+        "n_connector_hubs": 22,
+        "hub_ratio": 0.15714285714285714
+      },
+      "DorsalAttention": {
+        "degree_centrality": {
+          "mean": 0.0855155155155155,
+          "std": 0.03631916773286071
+        },
+        "betweenness_centrality": {
+          "mean": 0.0007613737070166394,
+          "std": 0.0013213379045996115
+        },
+        "participation_coefficient": {
+          "mean": 0.5994126964108846,
+          "std": 0.15926724588966829
+        },
+        "within_module_z": {
+          "mean": 5.773159728050814e-17,
+          "std": 0.9999999999940881
+        },
+        "n_provincial_hubs": 0,
+        "n_connector_hubs": 15,
+        "hub_ratio": 0.15
+      },
+      "VentralAttention": {
+        "degree_centrality": {
+          "mean": 0.11953953953953957,
+          "std": 0.03419269969282706
+        },
+        "betweenness_centrality": {
+          "mean": 0.0014784764324696955,
+          "std": 0.001112736998300203
+        },
+        "participation_coefficient": {
+          "mean": 0.7276739138069022,
+          "std": 0.06383265172608779
+        },
+        "within_module_z": {
+          "mean": -2.7755575615628914e-19,
+          "std": 0.9999999999919141
+        },
+        "n_provincial_hubs": 0,
+        "n_connector_hubs": 20,
+        "hub_ratio": 0.2
+      },
+      "Limbic": {
+        "degree_centrality": {
+          "mean": 0.11229801229801231,
+          "std": 0.05145526080562688
+        },
+        "betweenness_centrality": {
+          "mean": 0.0015319104824161722,
+          "std": 0.0014100169429194969
+        },
+        "participation_coefficient": {
+          "mean": 0.7261750822291708,
+          "std": 0.08796603681818656
+        },
+        "within_module_z": {
+          "mean": -6.026924990822278e-17,
+          "std": 0.9999999999913151
+        },
+        "n_provincial_hubs": 0,
+        "n_connector_hubs": 15,
+        "hub_ratio": 0.21428571428571427
+      },
+      "Frontoparietal": {
+        "degree_centrality": {
+          "mean": 0.07812518400753694,
+          "std": 0.05990252079521329
+        },
+        "betweenness_centrality": {
+          "mean": 0.0012904748051515902,
+          "std": 0.0016345896379510536
+        },
+        "participation_coefficient": {
+          "mean": 0.6060291873639356,
+          "std": 0.19724280891188656
+        },
+        "within_module_z": {
+          "mean": -7.706253935633439e-17,
+          "std": 0.9999999999931518
+        },
+        "n_provincial_hubs": 0,
+        "n_connector_hubs": 27,
+        "hub_ratio": 0.1588235294117647
+      },
+      "Default": {
+        "degree_centrality": {
+          "mean": 0.11580914247580915,
+          "std": 0.0572984779051516
+        },
+        "betweenness_centrality": {
+          "mean": 0.0013658620539367828,
+          "std": 0.001257217768371248
+        },
+        "participation_coefficient": {
+          "mean": 0.5236645239172837,
+          "std": 0.16482265082710634
+        },
+        "within_module_z": {
+          "mean": 2.1316282072803005e-16,
+          "std": 0.9999999999971533
+        },
+        "n_provincial_hubs": 0,
+        "n_connector_hubs": 53,
+        "hub_ratio": 0.17666666666666667
+      }
+    }
+  },
+  "aggregated": {
+    "Visual": {
+      "degree_centrality": 0.08885760760760761,
+      "betweenness_centrality": 0.000991456800351188,
+      "participation_coefficient": 0.5964289913282007,
+      "connector_hub_ratio": 0.16041666666666665,
+      "hub_ratio": 0.16041666666666665
+    },
+    "Somatomotor": {
+      "degree_centrality": 0.09605855855855855,
+      "betweenness_centrality": 0.0012162553624343903,
+      "participation_coefficient": 0.6510043589895428,
+      "connector_hub_ratio": 0.1357142857142857,
+      "hub_ratio": 0.13749999999999998
+    },
+    "DorsalAttention": {
+      "degree_centrality": 0.06086586586586586,
+      "betweenness_centrality": 0.0009206839443299477,
+      "participation_coefficient": 0.5365638526486392,
+      "connector_hub_ratio": 0.1425,
+      "hub_ratio": 0.1625
+    },
+    "VentralAttention": {
+      "degree_centrality": 0.12301801801801804,
+      "betweenness_centrality": 0.0013987129573424925,
+      "participation_coefficient": 0.7274610189124773,
+      "connector_hub_ratio": 0.1725,
+      "hub_ratio": 0.1725
+    },
+    "Limbic": {
+      "degree_centrality": 0.11083583583583584,
+      "betweenness_centrality": 0.0015780557217042654,
+      "participation_coefficient": 0.7251726748927847,
+      "connector_hub_ratio": 0.2,
+      "hub_ratio": 0.2
+    },
+    "Frontoparietal": {
+      "degree_centrality": 0.08475828769946417,
+      "betweenness_centrality": 0.0012807938762261013,
+      "participation_coefficient": 0.5959209211345688,
+      "connector_hub_ratio": 0.19264705882352942,
+      "hub_ratio": 0.19264705882352942
+    },
+    "Default": {
+      "degree_centrality": 0.11811061061061061,
+      "betweenness_centrality": 0.0013003596018968662,
+      "participation_coefficient": 0.5432739385156584,
+      "connector_hub_ratio": 0.1775,
+      "hub_ratio": 0.1775
+    }
+  }
+}

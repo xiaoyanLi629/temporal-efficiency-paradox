@@ -1,0 +1,495 @@
+{
+  "tds_comparisons": {
+    "Visual vs Somatomotor": {
+      "difference": -0.07235029122709358,
+      "p_value_permutation": 0.2806,
+      "p_value_ttest": 0.35771827774185216,
+      "cohens_d": -0.7042595999424187,
+      "effect_size_interpretation": "medium",
+      "Visual_mean": 0.8152628088467779,
+      "Somatomotor_mean": 0.8876131000738715,
+      "p_value_fdr_corrected": 0.36828750000000005,
+      "significant_fdr": false
+    },
+    "Visual vs DorsalAttention": {
+      "difference": -0.1162159540217157,
+      "p_value_permutation": 0.3762,
+      "p_value_ttest": 0.34374088740082365,
+      "cohens_d": -0.7266699430488309,
+      "effect_size_interpretation": "medium",
+      "Visual_mean": 0.8152628088467779,
+      "DorsalAttention_mean": 0.9314787628684936,
+      "p_value_fdr_corrected": 0.4647176470588235,
+      "significant_fdr": false
+    },
+    "Visual vs VentralAttention": {
+      "difference": 0.17337863574537882,
+      "p_value_permutation": 0.025,
+      "p_value_ttest": 0.028121542902230835,
+      "cohens_d": 2.035238860410038,
+      "effect_size_interpretation": "large",
+      "Visual_mean": 0.8152628088467779,
+      "VentralAttention_mean": 0.6418841731013991,
+      "p_value_fdr_corrected": 0.07455,
+      "significant_fdr": false
+    },
+    "Visual vs Limbic": {
+      "difference": -0.13389384395827675,
+      "p_value_permutation": 0.1374,
+      "p_value_ttest": 0.09244712223948177,
+      "cohens_d": -1.4140986762863077,
+      "effect_size_interpretation": "large",
+      "Visual_mean": 0.8152628088467779,
+      "Limbic_mean": 0.9491566528050547,
+      "p_value_fdr_corrected": 0.22195384615384614,
+      "significant_fdr": false
+    },
+    "Visual vs Frontoparietal": {
+      "difference": -0.3817168805331932,
+      "p_value_permutation": 0.0284,
+      "p_value_ttest": 0.001082612961937283,
+      "cohens_d": -4.1500288902506615,
+      "effect_size_interpretation": "large",
+      "Visual_mean": 0.8152628088467779,
+      "Frontoparietal_mean": 1.1969796893799711,
+      "p_value_fdr_corrected": 0.07455,
+      "significant_fdr": false
+    },
+    "Visual vs Default": {
+      "difference": 0.03881982377351867,
+      "p_value_permutation": 0.5462,
+      "p_value_ttest": 0.4676944317351439,
+      "cohens_d": 0.5481095235883767,
+      "effect_size_interpretation": "medium",
+      "Visual_mean": 0.8152628088467779,
+      "Default_mean": 0.7764429850732593,
+      "p_value_fdr_corrected": 0.6036947368421053,
+      "significant_fdr": false
+    },
+    "Somatomotor vs DorsalAttention": {
+      "difference": -0.04386566279462212,
+      "p_value_permutation": 0.7104,
+      "p_value_ttest": 0.7269204583666378,
+      "cohens_d": -0.258803877463988,
+      "effect_size_interpretation": "small",
+      "Somatomotor_mean": 0.8876131000738715,
+      "DorsalAttention_mean": 0.9314787628684936,
+      "p_value_fdr_corrected": 0.74592,
+      "significant_fdr": false
+    },
+    "Somatomotor vs VentralAttention": {
+      "difference": 0.2457289269724724,
+      "p_value_permutation": 0.027,
+      "p_value_ttest": 0.014382643415370423,
+      "cohens_d": 2.408670292045565,
+      "effect_size_interpretation": "large",
+      "Somatomotor_mean": 0.8876131000738715,
+      "VentralAttention_mean": 0.6418841731013991,
+      "p_value_fdr_corrected": 0.07455,
+      "significant_fdr": false
+    },
+    "Somatomotor vs Limbic": {
+      "difference": -0.06154355273118317,
+      "p_value_permutation": 0.4686,
+      "p_value_ttest": 0.45921593682818185,
+      "cohens_d": -0.5591182984920982,
+      "effect_size_interpretation": "medium",
+      "Somatomotor_mean": 0.8876131000738715,
+      "Limbic_mean": 0.9491566528050547,
+      "p_value_fdr_corrected": 0.5467,
+      "significant_fdr": false
+    },
+    "Somatomotor vs Frontoparietal": {
+      "difference": -0.3093665893060996,
+      "p_value_permutation": 0.0252,
+      "p_value_ttest": 0.006648456760334174,
+      "cohens_d": -2.871046013884466,
+      "effect_size_interpretation": "large",
+      "Somatomotor_mean": 0.8876131000738715,
+      "Frontoparietal_mean": 1.1969796893799711,
+      "p_value_fdr_corrected": 0.07455,
+      "significant_fdr": false
+    },
+    "Somatomotor vs Default": {
+      "difference": 0.11117011500061225,
+      "p_value_permutation": 0.1993,
+      "p_value_ttest": 0.13256513873011674,
+      "cohens_d": 1.2301545053184435,
+      "effect_size_interpretation": "large",
+      "Somatomotor_mean": 0.8876131000738715,
+      "Default_mean": 0.7764429850732593,
+      "p_value_fdr_corrected": 0.28686,
+      "significant_fdr": false
+    },
+    "DorsalAttention vs VentralAttention": {
+      "difference": 0.2895945897670945,
+      "p_value_permutation": 0.0849,
+      "p_value_ttest": 0.04244016199220008,
+      "cohens_d": 1.8159607162223936,
+      "effect_size_interpretation": "large",
+      "DorsalAttention_mean": 0.9314787628684936,
+      "VentralAttention_mean": 0.6418841731013991,
+      "p_value_fdr_corrected": 0.148575,
+      "significant_fdr": false
+    },
+    "DorsalAttention vs Limbic": {
+      "difference": -0.017677889936561053,
+      "p_value_permutation": 0.8919,
+      "p_value_ttest": 0.884353768923214,
+      "cohens_d": -0.10730745895440369,
+      "effect_size_interpretation": "negligible",
+      "DorsalAttention_mean": 0.9314787628684936,
+      "Limbic_mean": 0.9491566528050547,
+      "p_value_fdr_corrected": 0.8919,
+      "significant_fdr": false
+    },
+    "DorsalAttention vs Frontoparietal": {
+      "difference": -0.2655009265114775,
+      "p_value_permutation": 0.043,
+      "p_value_ttest": 0.061042081086075145,
+      "cohens_d": -1.6268387436559772,
+      "effect_size_interpretation": "large",
+      "DorsalAttention_mean": 0.9314787628684936,
+      "Frontoparietal_mean": 1.1969796893799711,
+      "p_value_fdr_corrected": 0.10033333333333333,
+      "significant_fdr": false
+    },
+    "DorsalAttention vs Default": {
+      "difference": 0.15503577779523436,
+      "p_value_permutation": 0.2049,
+      "p_value_ttest": 0.19999628188205443,
+      "cohens_d": 1.018070756343269,
+      "effect_size_interpretation": "large",
+      "DorsalAttention_mean": 0.9314787628684936,
+      "Default_mean": 0.7764429850732593,
+      "p_value_fdr_corrected": 0.28686,
+      "significant_fdr": false
+    },
+    "VentralAttention vs Limbic": {
+      "difference": -0.30727247970365557,
+      "p_value_permutation": 0.0248,
+      "p_value_ttest": 0.0035878282558131475,
+      "cohens_d": -3.2719938105256476,
+      "effect_size_interpretation": "large",
+      "VentralAttention_mean": 0.6418841731013991,
+      "Limbic_mean": 0.9491566528050547,
+      "p_value_fdr_corrected": 0.07455,
+      "significant_fdr": false
+    },
+    "VentralAttention vs Frontoparietal": {
+      "difference": -0.555095516278572,
+      "p_value_permutation": 0.028,
+      "p_value_ttest": 0.00013508845858099442,
+      "cohens_d": -6.08782472798081,
+      "effect_size_interpretation": "large",
+      "VentralAttention_mean": 0.6418841731013991,
+      "Frontoparietal_mean": 1.1969796893799711,
+      "p_value_fdr_corrected": 0.07455,
+      "significant_fdr": false
+    },
+    "VentralAttention vs Default": {
+      "difference": -0.13455881197186015,
+      "p_value_permutation": 0.0148,
+      "p_value_ttest": 0.03432874900958419,
+      "cohens_d": -1.928181089342548,
+      "effect_size_interpretation": "large",
+      "VentralAttention_mean": 0.6418841731013991,
+      "Default_mean": 0.7764429850732593,
+      "p_value_fdr_corrected": 0.07455,
+      "significant_fdr": false
+    },
+    "Limbic vs Frontoparietal": {
+      "difference": -0.24782303657491644,
+      "p_value_permutation": 0.0606,
+      "p_value_ttest": 0.012812895316538396,
+      "cohens_d": -2.4754835491710234,
+      "effect_size_interpretation": "large",
+      "Limbic_mean": 0.9491566528050547,
+      "Frontoparietal_mean": 1.1969796893799711,
+      "p_value_fdr_corrected": 0.11569090909090908,
+      "significant_fdr": false
+    },
+    "Limbic vs Default": {
+      "difference": 0.17271366773179542,
+      "p_value_permutation": 0.0579,
+      "p_value_ttest": 0.023653468774207514,
+      "cohens_d": 2.129481428566108,
+      "effect_size_interpretation": "large",
+      "Limbic_mean": 0.9491566528050547,
+      "Default_mean": 0.7764429850732593,
+      "p_value_fdr_corrected": 0.11569090909090908,
+      "significant_fdr": false
+    },
+    "Frontoparietal vs Default": {
+      "difference": 0.42053670430671186,
+      "p_value_permutation": 0.0278,
+      "p_value_ttest": 0.00026406406072457614,
+      "cohens_d": 5.396314939158379,
+      "effect_size_interpretation": "large",
+      "Frontoparietal_mean": 1.1969796893799711,
+      "Default_mean": 0.7764429850732593,
+      "p_value_fdr_corrected": 0.07455,
+      "significant_fdr": false
+    }
+  },
+  "dcs_comparisons": {
+    "Visual vs Somatomotor": {
+      "difference": 0.11565580469598463,
+      "p_value_permutation": 0.1169,
+      "p_value_ttest": 0.09198367589397792,
+      "cohens_d": 1.416663354811752,
+      "effect_size_interpretation": "large",
+      "Visual_mean": 0.5677625104254083,
+      "Somatomotor_mean": 0.45210670572942363,
+      "p_value_fdr_corrected": 0.24549000000000004,
+      "significant_fdr": false
+    },
+    "Visual vs DorsalAttention": {
+      "difference": 0.05408739364719828,
+      "p_value_permutation": 0.1066,
+      "p_value_ttest": 0.1473737760129584,
+      "cohens_d": 1.175914082109207,
+      "effect_size_interpretation": "large",
+      "Visual_mean": 0.5677625104254083,
+      "DorsalAttention_mean": 0.51367511677821,
+      "p_value_fdr_corrected": 0.24549000000000004,
+      "significant_fdr": false
+    },
+    "Visual vs VentralAttention": {
+      "difference": 0.059340246644193795,
+      "p_value_permutation": 0.0619,
+      "p_value_ttest": 0.046321240962676695,
+      "cohens_d": 1.7700976213717567,
+      "effect_size_interpretation": "large",
+      "Visual_mean": 0.5677625104254083,
+      "VentralAttention_mean": 0.5084222637812145,
+      "p_value_fdr_corrected": 0.21664999999999998,
+      "significant_fdr": false
+    },
+    "Visual vs Limbic": {
+      "difference": 0.10390935344378904,
+      "p_value_permutation": 0.0306,
+      "p_value_ttest": 0.10866158937615063,
+      "cohens_d": 1.3316715392781424,
+      "effect_size_interpretation": "large",
+      "Visual_mean": 0.5677625104254083,
+      "Limbic_mean": 0.4638531569816192,
+      "p_value_fdr_corrected": 0.21419999999999997,
+      "significant_fdr": false
+    },
+    "Visual vs Frontoparietal": {
+      "difference": 0.2710265380134576,
+      "p_value_permutation": 0.0295,
+      "p_value_ttest": 0.034654153570295866,
+      "cohens_d": 1.9231556111437726,
+      "effect_size_interpretation": "large",
+      "Visual_mean": 0.5677625104254083,
+      "Frontoparietal_mean": 0.29673597241195065,
+      "p_value_fdr_corrected": 0.21419999999999997,
+      "significant_fdr": false
+    },
+    "Visual vs Default": {
+      "difference": 0.18416951410525106,
+      "p_value_permutation": 0.0296,
+      "p_value_ttest": 0.023856083205752214,
+      "cohens_d": 2.124803828329281,
+      "effect_size_interpretation": "large",
+      "Visual_mean": 0.5677625104254083,
+      "Default_mean": 0.3835929963201572,
+      "p_value_fdr_corrected": 0.21419999999999997,
+      "significant_fdr": false
+    },
+    "Somatomotor vs DorsalAttention": {
+      "difference": -0.06156841104878635,
+      "p_value_permutation": 0.316,
+      "p_value_ttest": 0.3791523978979184,
+      "cohens_d": -0.6712082852220667,
+      "effect_size_interpretation": "medium",
+      "Somatomotor_mean": 0.45210670572942363,
+      "DorsalAttention_mean": 0.51367511677821,
+      "p_value_fdr_corrected": 0.5104615384615385,
+      "significant_fdr": false
+    },
+    "Somatomotor vs VentralAttention": {
+      "difference": -0.05631555805179084,
+      "p_value_permutation": 0.365,
+      "p_value_ttest": 0.3909220422343982,
+      "cohens_d": -0.6536761839896102,
+      "effect_size_interpretation": "medium",
+      "Somatomotor_mean": 0.45210670572942363,
+      "VentralAttention_mean": 0.5084222637812145,
+      "p_value_fdr_corrected": 0.5475,
+      "significant_fdr": false
+    },
+    "Somatomotor vs Limbic": {
+      "difference": -0.011746451252195589,
+      "p_value_permutation": 0.9753,
+      "p_value_ttest": 0.8862399112590522,
+      "cohens_d": -0.10554198272735962,
+      "effect_size_interpretation": "negligible",
+      "Somatomotor_mean": 0.45210670572942363,
+      "Limbic_mean": 0.4638531569816192,
+      "p_value_fdr_corrected": 0.9752999999999998,
+      "significant_fdr": false
+    },
+    "Somatomotor vs Frontoparietal": {
+      "difference": 0.15537073331747298,
+      "p_value_permutation": 0.2179,
+      "p_value_ttest": 0.22314560567382416,
+      "cohens_d": 0.9606346004066152,
+      "effect_size_interpretation": "large",
+      "Somatomotor_mean": 0.45210670572942363,
+      "Frontoparietal_mean": 0.29673597241195065,
+      "p_value_fdr_corrected": 0.412475,
+      "significant_fdr": false
+    },
+    "Somatomotor vs Default": {
+      "difference": 0.06851370940926643,
+      "p_value_permutation": 0.45,
+      "p_value_ttest": 0.44120500977056243,
+      "cohens_d": 0.5829936287900834,
+      "effect_size_interpretation": "medium",
+      "Somatomotor_mean": 0.45210670572942363,
+      "Default_mean": 0.3835929963201572,
+      "p_value_fdr_corrected": 0.5906250000000001,
+      "significant_fdr": false
+    },
+    "DorsalAttention vs VentralAttention": {
+      "difference": 0.005252852996995516,
+      "p_value_permutation": 0.9433,
+      "p_value_ttest": 0.8943023222531219,
+      "cohens_d": 0.09800381865633075,
+      "effect_size_interpretation": "negligible",
+      "DorsalAttention_mean": 0.51367511677821,
+      "VentralAttention_mean": 0.5084222637812145,
+      "p_value_fdr_corrected": 0.9752999999999998,
+      "significant_fdr": false
+    },
+    "DorsalAttention vs Limbic": {
+      "difference": 0.049821959796590765,
+      "p_value_permutation": 0.4839,
+      "p_value_ttest": 0.45642723228352666,
+      "cohens_d": 0.562770657043665,
+      "effect_size_interpretation": "medium",
+      "DorsalAttention_mean": 0.51367511677821,
+      "Limbic_mean": 0.4638531569816192,
+      "p_value_fdr_corrected": 0.5977588235294117,
+      "significant_fdr": false
+    },
+    "DorsalAttention vs Frontoparietal": {
+      "difference": 0.21693914436625933,
+      "p_value_permutation": 0.0566,
+      "p_value_ttest": 0.0819340361298619,
+      "cohens_d": 1.4757537764254607,
+      "effect_size_interpretation": "large",
+      "DorsalAttention_mean": 0.51367511677821,
+      "Frontoparietal_mean": 0.29673597241195065,
+      "p_value_fdr_corrected": 0.21664999999999998,
+      "significant_fdr": false
+    },
+    "DorsalAttention vs Default": {
+      "difference": 0.13008212045805279,
+      "p_value_permutation": 0.0844,
+      "p_value_ttest": 0.10448189411566679,
+      "cohens_d": 1.3516760005098654,
+      "effect_size_interpretation": "large",
+      "DorsalAttention_mean": 0.51367511677821,
+      "Default_mean": 0.3835929963201572,
+      "p_value_fdr_corrected": 0.22155,
+      "significant_fdr": false
+    },
+    "VentralAttention vs Limbic": {
+      "difference": 0.04456910679959525,
+      "p_value_permutation": 0.6541,
+      "p_value_ttest": 0.4750499424596618,
+      "cohens_d": 0.5386717719994185,
+      "effect_size_interpretation": "medium",
+      "VentralAttention_mean": 0.5084222637812145,
+      "Limbic_mean": 0.4638531569816192,
+      "p_value_fdr_corrected": 0.7229526315789474,
+      "significant_fdr": false
+    },
+    "VentralAttention vs Frontoparietal": {
+      "difference": 0.2116862913692638,
+      "p_value_permutation": 0.0802,
+      "p_value_ttest": 0.0821755595643503,
+      "cohens_d": 1.4742490238153714,
+      "effect_size_interpretation": "large",
+      "VentralAttention_mean": 0.5084222637812145,
+      "Frontoparietal_mean": 0.29673597241195065,
+      "p_value_fdr_corrected": 0.22155,
+      "significant_fdr": false
+    },
+    "VentralAttention vs Default": {
+      "difference": 0.12482926746105727,
+      "p_value_permutation": 0.0573,
+      "p_value_ttest": 0.10026790458978997,
+      "cohens_d": 1.3726714226393453,
+      "effect_size_interpretation": "large",
+      "VentralAttention_mean": 0.5084222637812145,
+      "Default_mean": 0.3835929963201572,
+      "p_value_fdr_corrected": 0.21664999999999998,
+      "significant_fdr": false
+    },
+    "Limbic vs Frontoparietal": {
+      "difference": 0.16711718456966856,
+      "p_value_permutation": 0.2357,
+      "p_value_ttest": 0.18998030564948368,
+      "cohens_d": 1.0448376314101282,
+      "effect_size_interpretation": "large",
+      "Limbic_mean": 0.4638531569816192,
+      "Frontoparietal_mean": 0.29673597241195065,
+      "p_value_fdr_corrected": 0.412475,
+      "significant_fdr": false
+    },
+    "Limbic vs Default": {
+      "difference": 0.08026016066146202,
+      "p_value_permutation": 0.3962,
+      "p_value_ttest": 0.3619192685261622,
+      "cohens_d": 0.6976608593056143,
+      "effect_size_interpretation": "medium",
+      "Limbic_mean": 0.4638531569816192,
+      "Default_mean": 0.3835929963201572,
+      "p_value_fdr_corrected": 0.55468,
+      "significant_fdr": false
+    },
+    "Frontoparietal vs Default": {
+      "difference": -0.08685702390820654,
+      "p_value_permutation": 0.5348,
+      "p_value_ttest": 0.48304420526946634,
+      "cohens_d": -0.5285288566498998,
+      "effect_size_interpretation": "medium",
+      "Frontoparietal_mean": 0.29673597241195065,
+      "Default_mean": 0.3835929963201572,
+      "p_value_fdr_corrected": 0.6239333333333333,
+      "significant_fdr": false
+    }
+  },
+  "twg_comparisons": {},
+  "key_hypothesis_tests": {
+    "dmn_vs_visual_twg": {
+      "hypothesis": "DMN shows greater TWG than Visual network",
+      "dmn_twg": -0.04609338584504781,
+      "visual_twg": -0.047487333666250346,
+      "difference": 0.001393947821202536,
+      "supports_hypothesis": true
+    },
+    "h1_temporal_hierarchy": {
+      "hypothesis": "Networks show systematic differences in temporal dynamics (TDS)",
+      "n_significant_comparisons": 0,
+      "total_comparisons": 21,
+      "supports_hypothesis": false
+    },
+    "h2_connectivity_stability": {
+      "hypothesis": "Networks show systematic differences in connectivity stability (DCS)",
+      "n_significant_comparisons": 0,
+      "total_comparisons": 21,
+      "supports_hypothesis": false
+    }
+  },
+  "metadata": {
+    "timestamp": "2026-01-05T16:30:09.873283",
+    "n_permutations": 10000,
+    "fdr_alpha": 0.05
+  }
+}
