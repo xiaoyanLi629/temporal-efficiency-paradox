@@ -103,6 +103,9 @@ runs/analysis_pid.txt
 *.pptx
 *.ppt
 
+# Paper manuscript and templates (do not upload)
+cogsci_full_paper_template/
+
 # Coverage reports
 htmlcov/
 .coverage
