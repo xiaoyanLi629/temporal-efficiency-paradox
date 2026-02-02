@@ -99,6 +99,10 @@ runs/analysis_pid.txt
 *.pth
 *.ckpt
 
+# Large presentation files
+*.pptx
+*.ppt
+
 # Coverage reports
 htmlcov/
 .coverage
