@@ -1,27 +1,30 @@
 # The Temporal Efficiency Paradox
 
-## Fast Sensing, Slow Understanding: Neural Evidence for Hierarchical Temporal Dynamics
+## Fast Brains React, Slow Brains Understand
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![CCN 2026](https://img.shields.io/badge/Conference-CCN%202026-green.svg)](https://ccneuro.org/)
+[![CogSci 2026](https://img.shields.io/badge/Conference-CogSci%202026-green.svg)](https://cognitivesciencesociety.org/)
 
 ---
 
 ## Overview
 
-This project investigates the **temporal dynamics of brain activity during naturalistic movie watching**, examining the relationship between processing speed and encoding accuracy across cortical networks. We reveal a fundamental paradox: what appears "inefficient" from a speed perspective is actually optimal for deep understanding.
+This project investigates the **temporal dynamics of brain activity during naturalistic movie watching**, examining the relationship between processing speed and encoding accuracy across cortical networks.
 
 ### Key Findings
 
-| Network | TDS (Speed) | DCS (Stability) | TWG (Long-window Benefit) |
-|---------|-------------|-----------------|---------------------------|
-| Frontoparietal | 1.24 (Fastest) | 0.97 | +0.035 |
-| Dorsal Attention | 1.14 | 0.93 | +0.020 |
-| Default Mode | 0.84 | 0.96 | **+0.059** (Highest) |
-| Ventral Attention | 0.67 (Slowest) | 0.92 | +0.048 |
+| Network | TDS | DCS | TWG | Ridge *r* | LSTM *r* | LSTM Gain |
+|---------|-----|-----|-----|-----------|----------|-----------|
+| Frontoparietal | 1.20 (Fastest) | 0.30 | -0.015 | 0.277 | 0.408 | +47.5% |
+| Limbic | 0.95 | 0.46 | -0.024 | 0.305 | 0.456 | +49.3% |
+| Dorsal Attention | 0.93 | 0.51 | -0.026 | 0.285 | 0.425 | +49.5% |
+| Somatomotor | 0.89 | 0.45 | -0.029 | 0.327 | 0.514 | +57.4% |
+| Visual | 0.82 | 0.57 | -0.028 | 0.317 | 0.492 | +55.4% |
+| Default Mode | 0.78 | 0.38 | -0.021 | 0.386 | 0.582 | +50.8% |
+| Ventral Attention | 0.64 (Slowest) | 0.51 | -0.029 | 0.423 | 0.632 | +49.3% |
 
-**The Paradox**: Default Mode Network (DMN) processes information slowly but benefits most from extended temporal integration—revealing that "slow" is not inefficient, but optimized for deep semantic understanding.
+**The Paradox Resolved**: We hypothesized that slower networks would benefit more from temporal integration, but this was not supported—temporal averaging (TWG) impaired encoding across *all* networks. However, LSTM models that preserve sequential dependencies improved encoding by 47-57% uniformly, even over ridge regression with concatenated temporal features. The key factor is not intrinsic dynamics speed, but whether temporal structure is properly modeled.
 
 ---
 
@@ -79,6 +82,7 @@ pip install -r requirements.txt
 ### Data Requirements
 
 This project uses the **Algonauts 2025 Challenge** dataset with the **CNeuroMod Friends** fMRI data:
+
 - 4 subjects (sub-01, sub-02, sub-03, sub-05)
 - Schaefer 2018 Atlas (1000 parcels, 7 networks)
 - Friends TV series naturalistic viewing paradigm
@@ -111,27 +115,33 @@ python run_analysis.py --figures_only --run_dir runs/TIMESTAMP
 ## Analysis Pipeline
 
 ### Step 1: Temporal Dynamics Analysis (TDS)
+
 Computes power spectral density for each brain region and calculates the ratio of high-frequency to low-frequency power.
 
 **Metric**: TDS = P_HF / P_LF (High-frequency: 0.07-0.25 Hz, Low-frequency: 0.01-0.07 Hz)
 
 ### Step 2: Dynamic Functional Connectivity (DCS)
+
 Analyzes the temporal stability of functional connections using sliding-window correlation.
 
 **Metric**: DCS = 1 - σ/σ_max (Stability of within-network connectivity over time)
 
 ### Step 3: Multi-Timescale Encoding (TWG)
+
 Tests whether networks benefit from extended temporal integration using ridge regression encoding models.
 
 **Metric**: TWG = r_60TR - r_1TR (Encoding improvement with longer temporal context)
 
 ### Step 4: Statistical Testing
+
 Performs hypothesis testing for network differences (permutation tests, effect sizes, FDR correction).
 
 ### Step 5: Individual Differences
+
 Analyzes cross-subject variability and reliability (ICC analysis).
 
 ### Step 6-8: AI Model Analysis (Optional)
+
 - **LSTM vs Ridge**: Tests if recurrent models improve DMN encoding more than Visual
 - **Hub Centrality**: Analyzes network topology to explain why DMN needs slow processing
 - **Transformer Attention**: Visualizes temporal attention patterns across networks
@@ -165,23 +175,17 @@ Analyzes cross-subject variability and reliability (ICC analysis).
 
 ## Theoretical Contribution
 
-### Redefining Efficiency
+### The Paradox Resolved: Two-Level Distinction
 
-> **Traditional view**: Efficiency = Speed. Faster is better.
-> 
-> **New view**: Efficiency = Goal-alignment. Fast for reaction, slow for understanding.
+1. **Temporal averaging destroys information** — collapsing features across time impairs encoding (negative TWG for all networks)
+2. **Concatenation preserves information but not structure** — ridge regression with concatenated features still underperforms LSTM by 47-57%
+3. **Sequential modeling is key** — LSTM learns temporal dependencies, benefiting all networks uniformly regardless of intrinsic dynamics speed
 
-### The Dual-Timescale Architecture
+### Implications
 
-The brain implements a **hierarchical temporal architecture**:
-1. **Fast pathway** (Sensory networks): Optimized for rapid stimulus detection
-2. **Slow pathway** (Integration networks/DMN): Optimized for deep semantic understanding
-
-### Implications for AI Design
-
-1. Don't optimize all components for speed—some modules need to be "slow"
-2. Implement **hierarchical temporal architectures**: fast perception + slow reasoning
-3. Allow "slow" pathways to exist—deep understanding requires temporal accumulation
+- **For neuroscience**: Cortical temporal hierarchy is real (RQ1), but temporal integration benefits all networks equally when properly modeled, suggesting a parallel multi-timescale architecture rather than a simple speed gradient
+- **For encoding models**: Preserve temporal dependencies rather than aggregate features across time; the ~50% LSTM improvement demonstrates temporal structure accounts for substantial neural response variance
+- **For AI design**: Recurrent, order-sensitive architectures capture temporal structure that static or averaging approaches miss
 
 ---
 
@@ -193,7 +197,7 @@ If you use this code or findings, please cite:
 @inproceedings{temporal_efficiency_paradox_2026,
   title={The Temporal Efficiency Paradox: Fast Brains React, Slow Brains Understand},
   author={[Authors]},
-  booktitle={Cognitive Computational Neuroscience (CCN)},
+  booktitle={Proceedings of the Annual Conference of the Cognitive Science Society (CogSci)},
   year={2026}
 }
 ```
@@ -216,4 +220,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-*Last updated: January 2026*
+*Last updated: April 2026*
